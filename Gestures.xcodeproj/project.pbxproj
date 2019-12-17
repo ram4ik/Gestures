@@ -15,6 +15,10 @@
 		9550870823A8B8DE0013B3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9550870623A8B8DE0013B3D5 /* LaunchScreen.storyboard */; };
 		9550871123A8B9040013B3D5 /* TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871023A8B9040013B3D5 /* TapGesture.swift */; };
 		9550871323A8BB500013B3D5 /* LongPressGEsture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871223A8BB500013B3D5 /* LongPressGEsture.swift */; };
+		9550871523A8BC270013B3D5 /* LongPressUsingGestureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871423A8BC270013B3D5 /* LongPressUsingGestureState.swift */; };
+		9550871723A8BD640013B3D5 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871623A8BD640013B3D5 /* DragGesture.swift */; };
+		9550871923A8BFCD0013B3D5 /* MagnificationAndRotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871823A8BFCD0013B3D5 /* MagnificationAndRotationGestures.swift */; };
+		9550871B23A8C0120013B3D5 /* BuildATinderLikeSwipingGesture .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550871A23A8C0120013B3D5 /* BuildATinderLikeSwipingGesture .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		9550870923A8B8DE0013B3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9550871023A8B9040013B3D5 /* TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture.swift; sourceTree = "<group>"; };
 		9550871223A8BB500013B3D5 /* LongPressGEsture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGEsture.swift; sourceTree = "<group>"; };
+		9550871423A8BC270013B3D5 /* LongPressUsingGestureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressUsingGestureState.swift; sourceTree = "<group>"; };
+		9550871623A8BD640013B3D5 /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		9550871823A8BFCD0013B3D5 /* MagnificationAndRotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationAndRotationGestures.swift; sourceTree = "<group>"; };
+		9550871A23A8C0120013B3D5 /* BuildATinderLikeSwipingGesture .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BuildATinderLikeSwipingGesture .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,10 @@
 			children = (
 				9550871023A8B9040013B3D5 /* TapGesture.swift */,
 				9550871223A8BB500013B3D5 /* LongPressGEsture.swift */,
+				9550871423A8BC270013B3D5 /* LongPressUsingGestureState.swift */,
+				9550871623A8BD640013B3D5 /* DragGesture.swift */,
+				9550871823A8BFCD0013B3D5 /* MagnificationAndRotationGestures.swift */,
+				9550871A23A8C0120013B3D5 /* BuildATinderLikeSwipingGesture .swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -160,11 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9550871B23A8C0120013B3D5 /* BuildATinderLikeSwipingGesture .swift in Sources */,
+				9550871723A8BD640013B3D5 /* DragGesture.swift in Sources */,
 				9550871323A8BB500013B3D5 /* LongPressGEsture.swift in Sources */,
 				955086FC23A8B8DD0013B3D5 /* AppDelegate.swift in Sources */,
 				955086FE23A8B8DD0013B3D5 /* SceneDelegate.swift in Sources */,
 				9550870023A8B8DD0013B3D5 /* ContentView.swift in Sources */,
+				9550871523A8BC270013B3D5 /* LongPressUsingGestureState.swift in Sources */,
 				9550871123A8B9040013B3D5 /* TapGesture.swift in Sources */,
+				9550871923A8BFCD0013B3D5 /* MagnificationAndRotationGestures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
